@@ -1,0 +1,587 @@
+﻿@font-face {
+    font-family: 'AvenirNextLTProRegular';
+    src: url('../fonts/AvenirNextLTProRegular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'AvenirNextLTProMedium';
+    src: url('../fonts/AvenirNextLTProMedium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'AvenirNextLTProDemi';
+    src: url('../fonts/AvenirNextLTProDemi.ttf') format('truetype');
+}
+
+body {
+    font-family: 'AvenirNextLTProRegular';
+    font-size: 16px;
+    color: #000000;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    content: " ";
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+a,
+a:focus {
+    color: #000000;
+    text-decoration: none;
+}
+
+aside {
+    position: absolute;
+    background: #01161c;
+    max-width: 100px;
+    width: 100%;
+    height: 2250px;
+    float: left;
+}
+
+.menu-icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.menu-icon-bottom {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.bottom1 {
+    margin-top: 72px;
+}
+
+.clock {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.menu-text {
+    display: block;
+    font-family: 'AvenirNextLTProMedium';
+    color: #ffffff;
+    font-size: 0.750em;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.style1 {
+    color: #93a8b1;
+}
+
+.style2 {
+    color: #465c65;
+}
+
+.img-main {
+    position: relative;
+    display: block;
+    margin-left: 100px;
+    width: 94.69166666666667%;
+    height: auto;
+}
+
+.info-on-photo {
+    display: block;
+    position: relative;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.icon-play {
+    display: block;
+    position: relative;
+    margin-top: -30%;
+    margin-left: 52%;
+}
+
+.icon-style {
+    display: block;
+    position: relative;
+    margin-top: 10%;
+    margin-left: 14%;
+}
+
+.logo-text {
+    position: relative;
+    color: #7e8184;
+    font-size: 0.813em;
+    margin-left: 24.5%;
+    margin-top: -8.5%;
+    margin-bottom: 0;
+}
+
+.logo-text-main {
+    position: relative;
+    color: #ffffff;
+    font-size: 2.250em;
+    margin-left: 24.5%;
+    margin-top: 0.01%;
+    margin-bottom: 0;
+}
+
+button {
+    position: relative;
+    width: 105px;
+    height: 30px;
+    border-radius: 15px;
+    font-family: 'AvenirNextLTProDemi';
+    font-size: 0.688em;
+    margin-top: 0.5%;
+}
+
+.button-left {
+    background-color: #c484fb;
+    color: white;
+    margin-left: 24.5%;
+    margin-right: 1%;
+}
+
+.button-right {
+    background-color: white;
+}
+
+.followers-info {
+    position: relative;
+    float: right;
+    color: #7b7e7f;
+    font-size: 0.750em;
+    margin-top: -2%;
+    right: 2%;
+    text-align: right;
+}
+
+.main-info {
+    max-width: 530px;
+    width: 100%;
+    margin-top: 7.5%;
+    margin-left: 14%;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.description-img {
+    display: block;
+    position: relative;
+    margin-top: -13%;
+    margin-left: 62%;
+}
+
+.principles-info {
+    float: right;
+    margin-top: -14.7%;
+    margin-right: 14%;
+    font-family: 'AvenirNextLTProDemi';
+    font-size: 0.938em;
+    letter-spacing: 3px;
+}
+
+.principles-list {
+    float: right;
+    margin-top: -12.7%;
+    margin-right: 13.3%;
+    color: #85a4b2;
+    line-height: 1.9;
+    font-size: 0.938em;
+    list-style-type: square;
+}
+
+/*CATALOG*/
+
+h2 {
+    font-family: 'AvenirNextLTProDemi';
+    font-size: 1em;
+}
+h4 {
+    font-family: 'AvenirNextLTProDemi';
+    font-weight: bold;
+    font-size: 0.571em;
+    color: #c485fb;
+    margin: 4% 0 3% 0;
+}
+
+.catalog-text-title {
+    font-family: 'AvenirNextLTProMedium';
+    font-weight: bold;
+    font-size: 1.190em;
+}
+
+.catalog-author {
+    font-family: 'AvenirNextLTProRegular';
+    font-size: 0.762em;
+    color: #adadad;
+    margin-top: -5%;
+}
+.catalog {
+    display: block;
+    float: left;
+    margin-top: 48px;
+    margin-bottom: 4%;
+    padding-left: 10%;
+    background-color: #f7f7f7;
+    width: auto;
+    height: auto;
+}
+
+.catalog-author-img {
+    position: absolute;
+    display: block;
+    margin-top: -12%;
+    right: 9%;
+    z-index: 5;
+}
+
+.catalog-title {
+    margin-left: 4.3%;
+    padding-top: 4%;
+}
+
+.catalog-text {
+    font-family: 'AvenirNextLTProRegular';
+    font-size: 0.810em;
+    color: #000000;
+}
+
+.catalog-img {
+    display: inline-block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.catalog-img-bg {
+    width: 100%;
+    height: 100%;
+}
+
+.catalog-cover-bg {
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.catalog-cover-img {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+
+.catalog-button {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+.catalog-img:hover .catalog-cover-bg {
+    display: block;
+}
+
+.catalog-img:hover .catalog-cover-img {
+    visibility: visible;
+}
+
+.catalog-img:hover .catalog-button {
+    visibility: visible;
+}
+
+.catalog-cover-bg {
+    background: #000000;
+  -khtml-opacity: .6;
+	-moz-opacity: .6;
+		 opacity: .6;
+}
+
+.catalog-cover-img {
+    z-index: 1;
+}
+
+.catalog-button {
+    width: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60%;
+    font-size: 0.7em;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.catalog-button-more {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 3%;
+    padding-top: 2%;
+}
+
+.catalog-button-subcats1 {
+    position: relative;
+    display: block;
+    float: left;
+    padding-top: 1%;
+    margin-left: 4.3%;
+}
+
+.catalog-button-subcats2 {
+    position: relative;
+    display: block;
+    float: right;
+    padding-top: 1%;
+    margin-right: 3%;
+}
+
+/*FOOTER*/
+
+h3 {
+    font-family: 'AvenirNextLTProDemi';
+    margin-bottom: 25px;
+}
+
+.footer-column {
+    display: block;
+    float: left;
+    margin-left: 14%;
+    font-size: 0.813em;
+}
+
+.column-link {
+    list-style-type: none;
+    line-height: 1.5;
+}
+
+.second-column {
+    margin-left: 6%;
+}
+
+.third-column {
+    margin-left: 6%;
+}
+
+.fourth-column {
+    float: right;
+    margin-right: 4%;
+    margin-left: 0;
+}
+
+.footer-book-info {
+    display: block; 
+    float: right;
+    max-width: 250px;;
+    height: auto;
+    padding-left: 15px;
+    line-height: 1.5;
+}
+
+.copyright {
+    clear: both;
+    margin-left: 14%;
+    font-size: 0.813em;
+    color: #8d999e;
+    padding-top: 35px;
+}
+
+.social-icons {
+    clear: both;
+    float: left;
+    margin-left: 14%;
+    margin-right: 20px;
+    opacity: .2;
+}
+
+.social-icons img {
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 767px) {
+    .masonry[data-columns] {
+        content: '1 .col-xs-12';
+    }
+
+    aside {
+        width: 60px;
+        z-index: 2;
+        height: 4300px;
+    }
+
+    .img-main {
+        margin-left: 38px;
+        z-index: 1;
+    }
+
+    .icon-play {
+        z-index: 2;
+    }
+
+    .logo-text {
+        margin-left: 43%;
+        margin-top: -21%;
+    }
+
+    .logo-text-main {
+        margin-left: 43%;
+        margin-bottom: 1%;
+        font-size: 190%;
+        color: black;
+    }
+
+    .button-left {
+        margin-left: 43%;
+    }
+
+    .button-right {
+        border: 1px solid #adadad;
+    }
+
+    .followers-info {
+        margin-top: -35%;
+        z-index: 2;
+    }
+
+    .main-info {
+        max-width: 375px;
+    }
+
+    .description-img {
+        margin-left: 20%;
+        margin-top: 5%;
+    }
+
+    .principles-info {
+        margin-top: -35%;
+        margin-left: 40%;
+    }
+
+    .principles-list {
+        margin-top: -30%;
+    }
+
+    .catalog-button-subcats2 {
+        float: left;
+        margin-left: 5%;
+    }
+
+
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .masonry[data-columns] {
+        content: '2 .col-xs-6';
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .masonry[data-columns] {
+        content: '3 .col-xs-4';
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .masonry[data-columns] {
+        content: '3 .col-xs-';
+    }
+}
+
+@media (max-width: 1200px) {
+    .img-main {
+        width: 91.5%;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1920px) {
+    .masonry[data-columns] {
+        content: '3 .col-xs-4';
+    }
+
+    .icon-style {
+        margin-top: 17%;
+    }
+
+    .logo-text {
+        margin-top: -6%;
+    }
+
+    .description-img {
+        margin-top: -9%;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .main {
+        clear: both;
+    }
+
+    .thumbnail {
+        padding:  15px 100px;
+    }
+
+    .catalog-author-img {
+        left: 38%;
+        bottom: 27%;
+    }
+
+    aside {
+        height: 2800px;
+    }
+
+    .principles-info {
+        margin-top: -8%;
+        margin-right: 14%;
+        font-size: 0.938em;
+        letter-spacing: 3px;
+    }
+
+    .principles-list {
+        float: right;
+        margin-top: -7%;
+        margin-right: 13.3%;
+        color: #85a4b2;
+        line-height: 1.9;
+        font-size: 0.938em;
+        list-style-type: square;
+    }
+
+    .catalog {
+        display: block;
+        float: left;
+        margin-top: 5%;
+        margin-bottom: 4%;
+        padding-left: 10%;
+        background-color: #f7f7f7;
+        width: auto;
+        height: auto;
+    }
+
+    footer {
+        margin-top: 71.73%;
+    }
+}
